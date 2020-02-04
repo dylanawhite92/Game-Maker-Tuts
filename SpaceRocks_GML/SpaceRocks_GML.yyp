@@ -194,7 +194,7 @@
             "Key": "856cdfb0-4beb-4f02-bfbf-2cb56aea602b",
             "Value": {
                 "id": "4fbecdf9-cdb9-4441-9b86-aba07c5dc3bc",
-                "resourcePath": "rooms\\rm_win1\\rm_win1.yy",
+                "resourcePath": "rooms\\rm_gameover\\rm_gameover.yy",
                 "resourceType": "GMRoom"
             }
         },

@@ -1,6 +1,6 @@
 
 {
-    "name": "rm_win1",
+    "name": "rm_gameover",
     "id": "856cdfb0-4beb-4f02-bfbf-2cb56aea602b",
     "creationCodeFile": "",
     "inheritCode": false,
