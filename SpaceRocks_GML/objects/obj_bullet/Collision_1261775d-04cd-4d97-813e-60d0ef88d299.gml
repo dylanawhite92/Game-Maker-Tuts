@@ -1,5 +1,7 @@
 /// @description Collision detection for bullet hitting asteroid
 
+score += 1;
+
 instance_destroy();
 
 with(other) {
