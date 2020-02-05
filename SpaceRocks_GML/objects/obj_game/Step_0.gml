@@ -11,3 +11,13 @@ if (keyboard_check_pressed(vk_enter)) {
 			break;
 	};
 };
+
+if (room == rm_gamefield) {
+	if (score >= 100) {
+		room_goto(rm_win);
+	};
+
+	if (lives <= 0) {
+		room_goto(rm_gameover);
+	};
+};
