@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "0c1387e1-01b6-4ce8-ba48-88adfaa73f2d",
+            "Value": {
+                "id": "59ee16d7-fb04-4d9e-8d1e-cb187bd0a93b",
+                "resourcePath": "sounds\\snd_win\\snd_win.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "10fbda57-529e-43dc-b740-c6b36d149cfc",
             "Value": {
                 "id": "1532c434-7c19-4cef-8aa4-318642e8054b",
@@ -127,6 +135,14 @@
             }
         },
         {
+            "Key": "50dd34cc-8858-4af4-8210-2af2c71750fc",
+            "Value": {
+                "id": "79c0fef8-2968-42dc-81e5-7c0562c1f703",
+                "resourcePath": "sounds\\snd_die\\snd_die.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "5978a0cc-3d72-45b8-8468-e14efe0cd580",
             "Value": {
                 "id": "62b33227-e86f-441d-b5ff-35b03ae7c743",
@@ -167,6 +183,14 @@
             }
         },
         {
+            "Key": "720ff22a-b958-4276-a7ea-a51da6969fe5",
+            "Value": {
+                "id": "f29f1298-4f55-46ca-b8b7-4068201caa1b",
+                "resourcePath": "sounds\\msc_song\\msc_song.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "72e0bb4b-822e-4dcd-84c7-b47b1bee78f0",
             "Value": {
                 "id": "7cbd1082-3683-4ab1-8bf1-d6e714dca196",
@@ -196,6 +220,14 @@
                 "id": "4fbecdf9-cdb9-4441-9b86-aba07c5dc3bc",
                 "resourcePath": "rooms\\rm_gameover\\rm_gameover.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "859f45d7-b86c-48ea-aa07-1cffbf1fee31",
+            "Value": {
+                "id": "ba0977ef-6eb3-4423-863c-1edc84c484ae",
+                "resourcePath": "sounds\\snd_zap\\snd_zap.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -255,6 +287,14 @@
             }
         },
         {
+            "Key": "b7690621-6b71-4e3e-990d-f8d84f68fc58",
+            "Value": {
+                "id": "71f35961-ace2-46f6-b784-5ceae62aef2f",
+                "resourcePath": "sounds\\snd_lose\\snd_lose.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "b9a95499-4036-41c6-8e5f-e7eddab09b2b",
             "Value": {
                 "id": "c96be191-eb26-4ba1-9257-c6abc7bb39c0",
@@ -284,6 +324,14 @@
                 "id": "9e4d56ea-4b8d-49a9-bc32-d0973b9fbc5f",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "d3680d9a-9556-448b-90a8-e6e2277406a0",
+            "Value": {
+                "id": "43b0eb46-62c3-405b-bd55-78fa65bed9dc",
+                "resourcePath": "sounds\\snd_hurt\\snd_hurt.yy",
+                "resourceType": "GMSound"
             }
         },
         {
