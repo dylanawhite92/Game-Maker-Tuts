@@ -22,7 +22,20 @@ switch(room) {
 		draw_set_halign(fa_left);
 		break;
 	case rm_win:
-	
+		draw_set_halign(fa_center);
+		
+		var c = c_lime;
+		draw_text_transformed_color(
+			room_width / 2, 200, "YOU WON!",
+			3, 3, 0, c, c, c, c, 1
+		);
+		
+		draw_text(
+			room_width / 2, 300,
+			">> PRESS ENTER TO RESTART <<"
+		);
+		
+		draw_set_halign(fa_left);
 		break;
 	case rm_gameover:
 	
