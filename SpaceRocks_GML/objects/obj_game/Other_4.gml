@@ -14,3 +14,5 @@ if (room == rm_gamefield) {
 		instance_create_layer(xx, yy, "Instances", obj_asteroid);
 	};
 };
+
+alarm[0] = 60;
