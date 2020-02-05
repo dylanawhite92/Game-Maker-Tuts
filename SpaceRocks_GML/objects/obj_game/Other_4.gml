@@ -1,6 +1,10 @@
 /// @description Handle spawning random asteroids
 
 if (room == rm_gamefield) {
+	if (audio_is_playing(msc_song)) {
+		audio_stop_sound(msc_song);
+	};
+	
 	audio_play_sound(msc_song, 2, true);
 	
 	repeat(6) {
