@@ -48,7 +48,7 @@ switch(room) {
 		
 		draw_text(
 			room_width / 2, 250,
-			"FINAL SCORE: " + string(score);
+			"FINAL SCORE: " + string(score)
 		);
 		
 		draw_text(
