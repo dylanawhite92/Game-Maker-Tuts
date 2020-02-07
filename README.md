@@ -1,6 +1,8 @@
 # Game-Maker-Tuts
 A place to house the tutorials I'm working through in Game Maker Studio 2 in order to better understand the interface.
 
+Space Rocks and Farming RPG tutorials provided by FriendlyCosmonaut's YouTube channel.
+
 ## Space Rocks
 An Asteroids copy where a player pilots a triangular ship on a black field populated by randomly generated asteroids. 
 The player fires bullets and breaks apart asteroids until they are removed from the field. Just like Asteroids, the field 
