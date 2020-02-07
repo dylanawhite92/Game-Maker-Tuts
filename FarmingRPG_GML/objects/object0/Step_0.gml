@@ -12,8 +12,9 @@ moveY = 0;
 
 // Intended Movement
 moveX = (input_right - input_left) * spd;
-moveY = (input_down - input_up) * spd;
-
+if (moveX == 0) {
+	moveY = (input_down - input_up) * spd;
+}
 
 // Collision Checks - TODO
 if (COLLISION) {
