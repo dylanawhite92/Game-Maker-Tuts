@@ -28,7 +28,13 @@ if (moveX == 0) {
 // Collision Checks
 // Horizontal
 if (place_meeting(x + moveX, y, obj_collision)) {
-	moveX = 0;
+	repeat (abs(moveX)) {
+		if (!place_meeting(x + sign(moveX), y, obj_collision)) {
+			x += sign(moveX);
+		} else {
+			break;
+		};
+	};
 };
 
 // Vertical
