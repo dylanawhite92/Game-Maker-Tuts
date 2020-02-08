@@ -25,10 +25,14 @@ if (moveX == 0) {
 	moveY = (input_down - input_up) * spd;
 }
 
-// Collision Checks - TODO
-if (COLLISION) {
+// Collision Checks
+// Horizontal
+if (place_meeting(x + moveX, y, obj_collision)) {
 	moveX = 0;
-}
+};
+
+// Vertical
+
 
 // Apply Movement
 x += moveX;
