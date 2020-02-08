@@ -9,9 +9,11 @@ input_walk = keyboard_check(vk_control);
 input_run = keyboard_check(vk_shift);
 
 // Alter Speed
-if (input_walk)		{ spd = w_spd };
-else if (input_run) { spd = r_spd };
-else				{ spd = n_spd };
+if (input_walk or input_run) {
+	spd = abs((input_walk * w_spd) - (input_run * r_spd));
+} else {
+	spd = n_spd;
+};
 
 // Reset Move Variables
 moveX = 0;
