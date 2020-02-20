@@ -14,6 +14,8 @@ if (moveX < 0) {
 	y_frame = 8;
 } else if (moveY > 0) {
 	y_frame = 10;
+} else {
+	x_frame = 0;
 };
 
 draw_sprite_part(spr_base_skeleton, 0, floor(x_frame) * frame_size, y_frame * frame_size, frame_size, frame_size, x, y);
