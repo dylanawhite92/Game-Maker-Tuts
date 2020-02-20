@@ -5,3 +5,7 @@ r_spd = 3;
 
 // Speed will be modified by key presses
 spd = n_spd
+
+// Set starting skeleton sprite frames
+x_frame = 0;
+y_frame = 704;
