@@ -39,11 +39,27 @@
             }
         },
         {
+            "Key": "082304d9-f209-4a74-91cc-fb97cb310928",
+            "Value": {
+                "id": "bb794f2b-0d3f-4125-ba07-e79fb1b5fe05",
+                "resourcePath": "sprites\\spr_feet_black_clogs\\spr_feet_black_clogs.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0fc8adbd-f47d-453d-9ef8-1fd4c038c05c",
             "Value": {
                 "id": "0dd15151-3ca4-46bb-b2de-7e5d26907ae4",
                 "resourcePath": "views\\0fc8adbd-f47d-453d-9ef8-1fd4c038c05c.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "11659a13-f81e-4126-942c-1dc983cc99e4",
+            "Value": {
+                "id": "6edee1c9-0f81-4654-af89-0741c393eb62",
+                "resourcePath": "sprites\\spr_base_skeleton\\spr_base_skeleton.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -63,6 +79,14 @@
             }
         },
         {
+            "Key": "296cd644-7018-49d5-aa3e-289bb621a984",
+            "Value": {
+                "id": "f44db5d8-84f6-4a58-b9d7-59f2a425ea88",
+                "resourcePath": "sprites\\spr_base_orc\\spr_base_orc.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2edf2990-89cb-4cd6-b8b7-730ebbc81c62",
             "Value": {
                 "id": "1bde461e-1ef8-4bb3-9242-f3d199f39b22",
@@ -71,11 +95,67 @@
             }
         },
         {
+            "Key": "346f70ce-124f-4bc5-a7fb-0818c4a18d78",
+            "Value": {
+                "id": "0c24dbfb-da76-436e-906a-ee96852c5102",
+                "resourcePath": "views\\346f70ce-124f-4bc5-a7fb-0818c4a18d78.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "4070881f-6b63-4250-8cff-2322afeb0633",
+            "Value": {
+                "id": "4f91b617-c413-4825-8627-b350fd87cf11",
+                "resourcePath": "sprites\\spr_torso_maroon_longsleeve\\spr_torso_maroon_longsleeve.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "552527a2-e8ec-4763-bb89-3eb599f5098a",
+            "Value": {
+                "id": "013ea001-96b5-43d4-96e4-156ae6978fe2",
+                "resourcePath": "views\\552527a2-e8ec-4763-bb89-3eb599f5098a.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "59c9626e-2b87-4639-8d44-f58498e26991",
+            "Value": {
+                "id": "cb39db4e-2781-41fa-8911-4d8cbcbbace8",
+                "resourcePath": "sprites\\spr_feet_maroon_clogs\\spr_feet_maroon_clogs.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5b7c4623-4bc1-4434-aedb-631a865e33f5",
             "Value": {
                 "id": "adfa0bac-a072-404f-a753-d666abcd1128",
                 "resourcePath": "views\\5b7c4623-4bc1-4434-aedb-631a865e33f5.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "668d87d1-1b89-4a15-a1db-e58feeaa4688",
+            "Value": {
+                "id": "d1c5f34e-7f4b-4c8d-b314-243972a24b53",
+                "resourcePath": "sprites\\spr_torso_leather\\spr_torso_leather.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "67264c2a-1847-491b-a026-1a3098f61293",
+            "Value": {
+                "id": "6e004a0b-b370-4f69-ae8d-5bfab8be4b39",
+                "resourcePath": "views\\67264c2a-1847-491b-a026-1a3098f61293.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "89deb025-c99c-43be-a5f5-1c6f29736f39",
+            "Value": {
+                "id": "3d5ae6d1-f147-4689-a58f-35eb73c0bc08",
+                "resourcePath": "sprites\\spr_hair_fro_gold\\spr_hair_fro_gold.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -95,10 +175,26 @@
             }
         },
         {
+            "Key": "95dd73a6-1261-4773-a810-05da78d6faba",
+            "Value": {
+                "id": "2261dac0-dcf5-46ec-9fe2-c56c97db0853",
+                "resourcePath": "sprites\\spr_hair_black_messy\\spr_hair_black_messy.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "ae5eefe0-3232-4257-a0b7-f89a2203327e",
             "Value": {
                 "id": "10489055-a395-40bb-abcd-50f1c43e9bf7",
                 "resourcePath": "views\\ae5eefe0-3232-4257-a0b7-f89a2203327e.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "b1ae6f6c-dde6-4759-afcd-466259b010c5",
+            "Value": {
+                "id": "e8a22c1d-18d1-47d0-9ede-bb752c2ef28f",
+                "resourcePath": "views\\b1ae6f6c-dde6-4759-afcd-466259b010c5.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -135,6 +231,14 @@
             }
         },
         {
+            "Key": "cf07a478-352b-441c-89e8-b255efbab7d9",
+            "Value": {
+                "id": "ce12fa7b-07ae-4651-8c17-6d900b18a78b",
+                "resourcePath": "sprites\\spr_feet_brown_clogs\\spr_feet_brown_clogs.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "d229a739-1f92-49de-b150-7422a088f820",
             "Value": {
                 "id": "0ad507a0-e32d-4896-878b-dab55cbd43e7",
@@ -167,6 +271,14 @@
             }
         },
         {
+            "Key": "e0bdbece-d74f-4ec6-865d-63d0170cf2a0",
+            "Value": {
+                "id": "5d5b68ad-94e9-4374-94e7-817f0515ac96",
+                "resourcePath": "views\\e0bdbece-d74f-4ec6-865d-63d0170cf2a0.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "e0e25ca3-c418-4a0b-925f-0016eabf4fcd",
             "Value": {
                 "id": "ef4d8952-86ac-4d04-bd19-163e39298cd5",
@@ -195,6 +307,30 @@
             "Value": {
                 "id": "d54056d6-5c4a-473d-accc-78a490b52afa",
                 "resourcePath": "sprites\\spr_collision\\spr_collision.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "ecc603ca-51e3-4fb9-ac83-018ab13d475e",
+            "Value": {
+                "id": "c8c10ca4-7d15-4ce9-99d5-a3da2b12983a",
+                "resourcePath": "views\\ecc603ca-51e3-4fb9-ac83-018ab13d475e.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "ee27049a-1f7a-4727-86cd-fe97106342ec",
+            "Value": {
+                "id": "86c20197-a385-4fbe-8a80-8e6fb169f06b",
+                "resourcePath": "sprites\\spr_legs_metal_pants\\spr_legs_metal_pants.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "f421f03d-0784-4817-898c-2ae256755402",
+            "Value": {
+                "id": "6a34afbf-0ed2-418c-bf60-88de4eff5327",
+                "resourcePath": "sprites\\spr_hair_green\\spr_hair_green.yy",
                 "resourceType": "GMSprite"
             }
         },
