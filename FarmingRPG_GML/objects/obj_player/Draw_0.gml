@@ -22,5 +22,5 @@ draw_sprite_part(spr_base_skeleton, 0, floor(x_frame) * frame_size, y_frame * fr
 if (x_frame < anim_length - 1) {
 	x_frame += anim_spd / 60;
 } else {
-	x_frame = 0;
+	x_frame = 1;
 };

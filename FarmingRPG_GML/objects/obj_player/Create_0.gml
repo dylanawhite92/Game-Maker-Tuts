@@ -7,5 +7,5 @@ r_spd = 3;
 spd = n_spd
 
 // Set starting skeleton sprite frames
-x_frame = 0;
-y_frame = 704;
+x_frame = 1;
+y_frame = 8;
