@@ -183,6 +183,14 @@
             }
         },
         {
+            "Key": "96590348-5ce1-43c2-8a41-24809b54d7f9",
+            "Value": {
+                "id": "c55ab186-160c-4e6d-83e2-9714f9eace61",
+                "resourcePath": "sprites\\spr_character_mask\\spr_character_mask.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "ae5eefe0-3232-4257-a0b7-f89a2203327e",
             "Value": {
                 "id": "10489055-a395-40bb-abcd-50f1c43e9bf7",
