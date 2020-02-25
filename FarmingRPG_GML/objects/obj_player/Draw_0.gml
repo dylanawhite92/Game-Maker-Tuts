@@ -18,7 +18,21 @@ if (moveX < 0) {
 	x_frame = 0;
 };
 
+// Draw sprite layers in order
+// Draw character base
 draw_sprite_part(spr_base_skeleton, 0, floor(x_frame) * frame_size, y_frame * frame_size, frame_size, frame_size, x, y);
+
+// Draw character feet
+draw_sprite_part(spr_feet_black_clogs, 0, floor(x_frame) * frame_size, y_frame * frame_size, frame_size, frame_size, x, y);
+
+// Draw character legs
+draw_sprite_part(spr_legs_metal_pants, 0, floor(x_frame) * frame_size, y_frame * frame_size, frame_size, frame_size, x, y);
+
+// Draw character shirt
+draw_sprite_part(spr_torso_leather, 0, floor(x_frame) * frame_size, y_frame * frame_size, frame_size, frame_size, x, y);
+
+// Draw character hair
+draw_sprite_part(spr_hair_fro_gold, 0, floor(x_frame) * frame_size, y_frame * frame_size, frame_size, frame_size, x, y);
 
 // Increment frame for animation
 if (x_frame < anim_length - 1) {
