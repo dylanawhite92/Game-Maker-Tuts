@@ -21,15 +21,15 @@ if (moveX < 0) {
 var xx = x - x_offset;
 var yy = y - y_offset;
 
-// Draw sprite layers in order
-// Draw character base
-draw_sprite_part(spr_base, 0, floor(x_frame) * frame_size, y_frame * frame_size, frame_size, frame_size, xx, yy);
-
 // Increment frame for animation
-if (x_frame < anim_length - 1) {
+if (x_frame + (anim_spd / 60) < anim_length - 1) {
 	x_frame += anim_spd / 60;
 } else {
 	x_frame = 1;
 };
+
+// Draw sprite layers in order
+// Draw character base
+draw_sprite_part(spr_base, 0, floor(x_frame) * frame_size, y_frame * frame_size, frame_size, frame_size, xx, yy);
 
 draw_rectangle_color(bbox_left, bbox_top, bbox_right, bbox_bottom, c_yellow, c_yellow, c_yellow, c_yellow, true);
