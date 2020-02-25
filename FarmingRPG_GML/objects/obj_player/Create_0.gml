@@ -9,3 +9,7 @@ spd = n_spd
 // Set starting skeleton sprite frames
 x_frame = 1;
 y_frame = 8;
+
+// Set origin of bounding box based on sprite
+x_offset = sprite_get_xoffset(mask_index);
+y_offset = sprite_get_yoffset(mask_index);

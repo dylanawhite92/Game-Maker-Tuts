@@ -18,21 +18,24 @@ if (moveX < 0) {
 	x_frame = 0;
 };
 
+var xx = x - x_offset;
+var yy = y - y_offset;
+
 // Draw sprite layers in order
 // Draw character base
-draw_sprite_part(spr_base_skeleton, 0, floor(x_frame) * frame_size, y_frame * frame_size, frame_size, frame_size, x, y);
+draw_sprite_part(spr_base_skeleton, 0, floor(x_frame) * frame_size, y_frame * frame_size, frame_size, frame_size, xx, yy);
 
 // Draw character feet
-draw_sprite_part(spr_feet_black_clogs, 0, floor(x_frame) * frame_size, y_frame * frame_size, frame_size, frame_size, x, y);
+draw_sprite_part(spr_feet_black_clogs, 0, floor(x_frame) * frame_size, y_frame * frame_size, frame_size, frame_size, xx, yy);
 
 // Draw character legs
-draw_sprite_part(spr_legs_metal_pants, 0, floor(x_frame) * frame_size, y_frame * frame_size, frame_size, frame_size, x, y);
+draw_sprite_part(spr_legs_metal_pants, 0, floor(x_frame) * frame_size, y_frame * frame_size, frame_size, frame_size, xx, yy);
 
 // Draw character shirt
-draw_sprite_part(spr_torso_leather, 0, floor(x_frame) * frame_size, y_frame * frame_size, frame_size, frame_size, x, y);
+draw_sprite_part(spr_torso_leather, 0, floor(x_frame) * frame_size, y_frame * frame_size, frame_size, frame_size, xx, yy);
 
 // Draw character hair
-draw_sprite_part(spr_hair_fro_gold, 0, floor(x_frame) * frame_size, y_frame * frame_size, frame_size, frame_size, x, y);
+draw_sprite_part(spr_hair_fro_gold, 0, floor(x_frame) * frame_size, y_frame * frame_size, frame_size, frame_size, xx, yy);
 
 // Increment frame for animation
 if (x_frame < anim_length - 1) {
